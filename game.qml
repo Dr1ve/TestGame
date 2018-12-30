@@ -21,7 +21,7 @@ Rectangle {
         id: menu
         width: parent.width
         anchors.top: parent.top
-        anchors.bottom: buttomBar.top
+        anchors.bottom: buttomBarInGame.top
         anchors.margins: 10
         visible: (root.state == "STARTING")
 
